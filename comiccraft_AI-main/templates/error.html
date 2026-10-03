@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error - ComicCraft</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Bangers&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: #f8fafc;
+            background-image: radial-gradient(#cbd5e1 1.5px, transparent 1.5px);
+            background-size: 24px 24px;
+            display: flex; justify-content: center; align-items: center;
+            min-height: 100vh; padding: 20px;
+        }
+        .card {
+            max-width: 500px; width: 100%;
+            background: #fff;
+            border: 3px solid #111;
+            border-radius: 20px;
+            padding: 48px 36px;
+            text-align: center;
+            box-shadow: 0 8px 0 #111;
+        }
+        .icon { font-size: 3.5rem; margin-bottom: 16px; }
+        h1 { font-family: 'Bangers', cursive; font-size: 2.4rem; color: #ff5252; margin-bottom: 12px; letter-spacing: 1px; }
+        .detail { background: #fff1f1; border: 2px solid #fca5a5; border-radius: 10px; padding: 12px 16px; margin: 16px 0 28px; font-size: 0.95rem; color: #7f1d1d; text-align: left; word-break: break-word; }
+        .btn { display: inline-block; padding: 14px 28px; background: #ff5252; color: #fff; font-family: 'Bangers', cursive; font-size: 1.5rem; letter-spacing: 1px; border: 3px solid #111; border-radius: 12px; text-decoration: none; box-shadow: 0 4px 0 #111; transition: all 0.15s; }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 6px 0 #111; }
+    </style>
+</head>
+<body>
+<div class="card">
+    <div class="icon">⚠️</div>
+    <h1>Something went wrong</h1>
+    <div class="detail">{{ error }}</div>
+    <a href="/" class="btn">← Try Again</a>
+</div>
+</body>
+</html>
