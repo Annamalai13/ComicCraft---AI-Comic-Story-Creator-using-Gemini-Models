@@ -1,6 +1,7 @@
 # ComicCraft - AI Comic Story Creator
 
 ComicCraft is a full-stack web application that creates custom 5-panel comic stories using Google Gemini models (Flash & Pro), Stable Diffusion, and FastAPI.
+
 Team ID : SWTID-2026-2688
 ## Project Structure
 ```
